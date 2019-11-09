@@ -1,0 +1,14 @@
+.idea
+.vscode
+.flutter-plugins
+
+.atom/
+.dart_tool/
+.vscode/
+.pub/
+
+android/
+build/
+ios/
+
+packages
