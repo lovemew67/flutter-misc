@@ -1,5 +1,6 @@
 .idea
 .vscode
+.packages
 .flutter-plugins
 
 .atom/

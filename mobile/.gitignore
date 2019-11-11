@@ -20,6 +20,7 @@
 .vs/
 
 # Flutter repo-specific
+.packages
 /bin/cache/
 /bin/mingit/
 /dev/benchmarks/mega_gallery/

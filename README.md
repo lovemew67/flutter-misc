@@ -26,6 +26,14 @@ flutter test
 flutter build windows
 ```
 
+## mobile
+```
+flutter run
+flutter test
+flutter build apk
+flutter build ios
+```
+
 ## web
 
 ```
