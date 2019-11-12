@@ -38,7 +38,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.sneath.dadjokes"
+        applicationId "com.lovemew67.fluttermisc"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 21
