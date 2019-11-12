@@ -14,6 +14,7 @@ some miscellaneous flutter code for practice.
 - https://github.com/google/flutter-desktop-embedding
 - https://github.com/mikegazzaruso/flutter_corsdetector
 - https://github.com/flutter/samples/tree/master/web/dad_jokes
+- https://github.com/flutter/flutter/wiki/Desktop-shells#tooling
 
 - https://medium.com/flutter-community/flutter-for-web-a-concrete-example-4ed293545008
 - https://medium.com/flutter-community/flutter-for-desktop-create-and-run-a-desktop-application-ebeb1604f1e0
