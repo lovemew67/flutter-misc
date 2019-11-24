@@ -1,6 +1,6 @@
 # flutter-misc
 
-some miscellaneous flutter code for practice.
+some miscellaneous `flutter` code for practice.
 
 ## learning resources
 

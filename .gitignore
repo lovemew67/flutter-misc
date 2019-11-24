@@ -1,0 +1,7 @@
+# folder
+.vscode
+
+# files
+.DS_Store
+/go.mod
+/go.sum
