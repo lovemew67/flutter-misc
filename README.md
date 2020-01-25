@@ -21,6 +21,7 @@ some miscellaneous `flutter` code for practice.
 ```
 
 ## desktop
+
 ```
 flutter run
 flutter test
@@ -28,6 +29,7 @@ flutter build windows
 ```
 
 ## mobile
+
 ```
 flutter run
 flutter test
@@ -36,12 +38,14 @@ flutter build ios
 ```
 
 ## web
+
 ```
 webdev serve
 webdev build
 ```
 
 ### windows
+
 ```
 Flutter 1.12.16-pre.35 • channel master • https://github.com/flutter/flutter.git
 Framework • revision b9a56b9f48 (8 weeks ago) • 2019-11-29 20:40:44 -0500
