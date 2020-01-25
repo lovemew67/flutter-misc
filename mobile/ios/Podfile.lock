@@ -2,11 +2,11 @@ PODS:
   - Flutter (1.0.0)
 
 DEPENDENCIES:
-  - Flutter (from `/Users/zzh/Flutter/1.9.1-hotfix6/bin/cache/artifacts/engine/ios`)
+  - Flutter (from `/Users/zzh/Flutter/bin/cache/artifacts/engine/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "/Users/zzh/Flutter/1.9.1-hotfix6/bin/cache/artifacts/engine/ios"
+    :path: "/Users/zzh/Flutter/bin/cache/artifacts/engine/ios"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
