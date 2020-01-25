@@ -36,8 +36,17 @@ flutter build ios
 ```
 
 ## web
-
 ```
 webdev serve
 webdev build
+```
+
+### windows
+```
+Flutter 1.12.16-pre.35 • channel master • https://github.com/flutter/flutter.git
+Framework • revision b9a56b9f48 (8 weeks ago) • 2019-11-29 20:40:44 -0500
+Engine • revision 8672e79af8
+Tools • Dart 2.7.0
+
+Visual Studio Community 2017 15.9.17: vs_community__1386378192.1573312057.exe
 ```
