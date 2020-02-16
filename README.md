@@ -18,6 +18,9 @@ some miscellaneous `flutter` code for practice.
 
 - https://medium.com/flutter-community/flutter-for-web-a-concrete-example-4ed293545008
 - https://medium.com/flutter-community/flutter-for-desktop-create-and-run-a-desktop-application-ebeb1604f1e0
+
+- https://www.favicon-generator.org/
+- https://stackoverflow.com/questions/56745525/how-to-configure-icon-for-my-flutter-web-application
 ```
 
 ## desktop
