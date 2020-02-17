@@ -222,3 +222,38 @@ zzh@zzh-mba Flutter % flutter doctor -v
 
 • No issues found!
 ```
+```
+zzh@zzhub18-vb-1:~/Golang/gopath/src/github.com/lovemew67/flutter-misc$ flutter doctor -v
+[✓] Flutter (Channel unknown, v1.12.17-pre.17, on Linux, locale en_US.UTF-8)
+    • Flutter version 1.12.17-pre.17 at /home/zzh/Flutter
+    • Framework revision b9a56b9f48 (3 months ago), 2019-11-29 20:40:44 -0500
+    • Engine revision 8672e79af8
+    • Dart version 2.7.0
+
+[✗] Android toolchain - develop for Android devices
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, set ANDROID_HOME to that location.
+      You may also want to add it to your PATH environment variable.
+
+
+[✓] Linux toolchain - develop for Linux desktop
+    • clang++ 6.0.0
+    • GNU Make 4.1
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+
+[!] VS Code (version 1.41.1)
+    • VS Code at /usr/share/code
+    ✗ Flutter extension not installed; install from
+      https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[✓] Connected device (1 available)
+    • Linux • Linux • linux-x64 • Linux
+
+! Doctor found issues in 3 categories.
+```
