@@ -50,6 +50,7 @@ webdev build
 ### windows
 ```
 Visual Studio Community 2017 15.9.17: vs_community__1386378192.1573312057.exe
+Visual Studio Community 2019 16.4.3:  vs_community__1918510240.1579942066.exe
 ```
 ```
 Package webdev is currently active at version 2.5.4.
@@ -254,6 +255,40 @@ zzh@zzhub18-vb-1:~/Golang/gopath/src/github.com/lovemew67/flutter-misc$ flutter 
 
 [✓] Connected device (1 available)
     • Linux • Linux • linux-x64 • Linux
+
+! Doctor found issues in 3 categories.
+```
+```
+[√] Flutter (Channel unknown, v1.12.17-pre.17, on Microsoft Windows [Version 10.0.14393], locale zh-TW)
+    • Flutter version 1.12.17-pre.17 at C:\Flutter
+    • Framework revision b9a56b9f48 (3 months ago), 2019-11-29 20:40:44 -0500
+    • Engine revision 8672e79af8
+    • Dart version 2.7.0
+
+[X] Android toolchain - develop for Android devices
+    X Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, set ANDROID_HOME to that location.
+      You may also want to add it to your PATH environment variable.
+
+
+[√] Visual Studio - develop for Windows (Visual Studio Community 2019 16.4.3)
+    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+    • Visual Studio Community 2019 version 16.4.29709.97
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+
+[!] VS Code, 64-bit edition (version 1.41.1)
+    • VS Code at C:\Program Files\Microsoft VS Code
+    X Flutter extension not installed; install from
+      https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[√] Connected device (1 available)
+    • Windows • Windows • windows-x64 • Microsoft Windows [Version 10.0.14393]
 
 ! Doctor found issues in 3 categories.
 ```
