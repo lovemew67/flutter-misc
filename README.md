@@ -256,7 +256,7 @@ zzh@zzhub18-vb-1:~/Golang/gopath/src/github.com/lovemew67/flutter-misc$ flutter 
 ! Doctor found issues in 3 categories.
 ```
 ```
-zzh@zzh-mba Flutter % flutter doctor -v
+zzh@zzh-mba flutter-misc % flutter doctor -v
 [✓] Flutter (Channel unknown, v1.12.17-pre.17, on Mac OS X 10.15.3 19D76, locale zh-Hant-TW)
     • Flutter version 1.12.17-pre.17 at /Users/zzh/Flutter
     • Framework revision b9a56b9f48 (3 months ago), 2019-11-29 20:40:44 -0500
