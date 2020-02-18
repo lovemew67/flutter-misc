@@ -297,3 +297,43 @@ zzh@zzh-mba flutter-misc % flutter doctor -v
 
 • No issues found!
 ```
+```
+zzh@zzh-z530:~/Golang/gopath/src/github.com/lovemew67/flutter-misc$ flutter doctor -v
+[✓] Flutter (Channel unknown, v1.12.17-pre.17, on Linux, locale en_US.UTF-8)
+    • Flutter version 1.12.17-pre.17 at /home/zzh/Flutter
+    • Framework revision b9a56b9f48 (3 months ago), 2019-11-29 20:40:44 -0500
+    • Engine revision 8672e79af8
+    • Dart version 2.7.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
+    • Android SDK at /home/zzh/Android/Sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 29.0.2
+    • Java binary at: /home/zzh/AndroidStudio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
+    • All Android licenses accepted.
+
+[✓] Linux toolchain - develop for Linux desktop
+    • clang++ 6.0.0
+    • GNU Make 4.1
+
+[✓] Android Studio (version 3.5)
+    • Android Studio at /home/zzh/AndroidStudio
+    • Flutter plugin version 41.0.2
+    • Dart plugin version 191.8593
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
+
+[✓] IntelliJ IDEA Community Edition (version 2019.2)
+    • IntelliJ at /home/zzh/Intellij/2019.2.4
+    • Flutter plugin version 41.0.4
+    • Dart plugin version 192.7402
+
+[✓] VS Code (version 1.42.0)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.8.1
+
+[✓] Connected device (1 available)
+    • Linux • Linux • linux-x64 • Linux
+
+• No issues found!
+```
