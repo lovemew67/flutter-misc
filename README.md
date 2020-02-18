@@ -23,7 +23,29 @@ some miscellaneous `flutter` code for practice.
 - https://stackoverflow.com/questions/56745525/how-to-configure-icon-for-my-flutter-web-application
 ```
 
-## desktop
+## installation commands
+
+```
+flutter channel master
+git checkout b9a56b9f48
+git checkout -b v1.12.16-pre.35
+flutter doctor
+```
+```
+flutter devices
+flutter run -d emulator-5554
+flutter run -d 73D29D22-B2E3-4ED6-9106-32EE3D247008
+flutter run -d macOS
+flutter run -d Windows
+```
+```
+flutter packages get
+flutter packages pub global activate webdev
+```
+
+## run commands
+
+### desktop
 
 ```
 flutter run
@@ -31,7 +53,7 @@ flutter test
 flutter build windows
 ```
 
-## mobile
+### mobile
 
 ```
 flutter run
@@ -40,14 +62,15 @@ flutter build apk
 flutter build ios
 ```
 
-## web
+### web
 
 ```
 webdev serve
 webdev build
 ```
 
-### windows
+## version info
+
 ```
 Visual Studio Community 2017 15.9.17: vs_community__1386378192.1573312057.exe
 Visual Studio Community 2019 16.4.3:  vs_community__1918510240.1579942066.exe
@@ -121,25 +144,6 @@ Precompiled webdev:webdev.
 Installed executable webdev.
 Activated webdev 2.5.4.
 ```
-
-```
-flutter channel master
-git checkout b9a56b9f48
-git checkout -b v1.12.16-pre.35
-flutter doctor
-```
-```
-flutter devices
-flutter run -d emulator-5554
-flutter run -d 73D29D22-B2E3-4ED6-9106-32EE3D247008
-flutter run -d macOS
-flutter run -d Windows
-```
-```
-flutter packages get
-flutter packages pub global activate webdev
-```
-
 ```
 PS C:\Golang\gopath\src\github.com\lovemew67\flutter-misc> flutter doctor -v
   ╔════════════════════════════════════════════════════════════════════════════╗
@@ -182,46 +186,39 @@ PS C:\Golang\gopath\src\github.com\lovemew67\flutter-misc> flutter doctor -v
 ! Doctor found issues in 2 categories.
 ```
 ```
-zzh@zzh-mba Flutter % flutter doctor -v
-[✓] Flutter (Channel unknown, v1.12.17-pre.17, on Mac OS X 10.15.3 19D76, locale zh-Hant-TW)
-    • Flutter version 1.12.17-pre.17 at /Users/zzh/Flutter
+PS C:\Golang\gopath\src\github.com\lovemew67\flutter-misc> flutter doctor -v
+[√] Flutter (Channel unknown, v1.12.17-pre.17, on Microsoft Windows [Version 10.0.14393], locale zh-TW)
+    • Flutter version 1.12.17-pre.17 at C:\Flutter
     • Framework revision b9a56b9f48 (3 months ago), 2019-11-29 20:40:44 -0500
     • Engine revision 8672e79af8
     • Dart version 2.7.0
 
- 
-[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
-    • Android SDK at /Users/zzh/Library/Android/sdk
-    • Android NDK location not configured (optional; useful for native profiling support)
-    • Platform android-29, build-tools 29.0.2
-    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
-    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
-    • All Android licenses accepted.
+[X] Android toolchain - develop for Android devices
+    X Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, set ANDROID_HOME to that location.
+      You may also want to add it to your PATH environment variable.
 
-[✓] Xcode - develop for iOS and macOS (Xcode 11.2)
-    • Xcode at /Applications/Xcode.app/Contents/Developer
-    • Xcode 11.2, Build version 11B52
-    • CocoaPods version 1.8.4
 
-[✓] Android Studio (version 3.5)
-    • Android Studio at /Applications/Android Studio.app/Contents
-    • Flutter plugin version 42.1.1
-    • Dart plugin version 191.8593
-    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
+[√] Visual Studio - develop for Windows (Visual Studio Community 2019 16.4.3)
+    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+    • Visual Studio Community 2019 version 16.4.29709.97
 
-[✓] VS Code (version 1.42.0)
-    • VS Code at /Applications/Visual Studio Code.app/Contents
-    • Flutter extension version 3.8.1
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
 
-[✓] Connected device (3 available)
-    • Android SDK built for x86 • emulator-5554                        • android-x86 • Android 10
-      (API 29) (emulator)
-    • iPhone 11 Pro Max         • 73D29D22-B2E3-4ED6-9106-32EE3D247008 • ios         •
-      com.apple.CoreSimulator.SimRuntime.iOS-13-2 (simulator)
-    • macOS                     • macOS                                • darwin-x64  • Mac OS X
-      10.15.3 19D76
+[!] VS Code, 64-bit edition (version 1.41.1)
+    • VS Code at C:\Program Files\Microsoft VS Code
+    X Flutter extension not installed; install from
+      https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 
-• No issues found!
+[√] Connected device (1 available)
+    • Windows • Windows • windows-x64 • Microsoft Windows [Version 10.0.14393]
+
+! Doctor found issues in 3 categories.
 ```
 ```
 zzh@zzhub18-vb-1:~/Golang/gopath/src/github.com/lovemew67/flutter-misc$ flutter doctor -v
@@ -259,36 +256,44 @@ zzh@zzhub18-vb-1:~/Golang/gopath/src/github.com/lovemew67/flutter-misc$ flutter 
 ! Doctor found issues in 3 categories.
 ```
 ```
-[√] Flutter (Channel unknown, v1.12.17-pre.17, on Microsoft Windows [Version 10.0.14393], locale zh-TW)
-    • Flutter version 1.12.17-pre.17 at C:\Flutter
+zzh@zzh-mba Flutter % flutter doctor -v
+[✓] Flutter (Channel unknown, v1.12.17-pre.17, on Mac OS X 10.15.3 19D76, locale zh-Hant-TW)
+    • Flutter version 1.12.17-pre.17 at /Users/zzh/Flutter
     • Framework revision b9a56b9f48 (3 months ago), 2019-11-29 20:40:44 -0500
     • Engine revision 8672e79af8
     • Dart version 2.7.0
 
-[X] Android toolchain - develop for Android devices
-    X Unable to locate Android SDK.
-      Install Android Studio from: https://developer.android.com/studio/index.html
-      On first launch it will assist you in installing the Android SDK components.
-      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
-      If the Android SDK has been installed to a custom location, set ANDROID_HOME to that location.
-      You may also want to add it to your PATH environment variable.
 
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
+    • Android SDK at /Users/zzh/Library/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 29.0.2
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
+    • All Android licenses accepted.
 
-[√] Visual Studio - develop for Windows (Visual Studio Community 2019 16.4.3)
-    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
-    • Visual Studio Community 2019 version 16.4.29709.97
+[✓] Xcode - develop for iOS and macOS (Xcode 11.2)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 11.2, Build version 11B52
+    • CocoaPods version 1.8.4
 
-[!] Android Studio (not installed)
-    • Android Studio not found; download from https://developer.android.com/studio/index.html
-      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+[✓] Android Studio (version 3.5)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 42.1.1
+    • Dart plugin version 191.8593
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
 
-[!] VS Code, 64-bit edition (version 1.41.1)
-    • VS Code at C:\Program Files\Microsoft VS Code
-    X Flutter extension not installed; install from
-      https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+[✓] VS Code (version 1.42.0)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.8.1
 
-[√] Connected device (1 available)
-    • Windows • Windows • windows-x64 • Microsoft Windows [Version 10.0.14393]
+[✓] Connected device (3 available)
+    • Android SDK built for x86 • emulator-5554                        • android-x86 • Android 10
+      (API 29) (emulator)
+    • iPhone 11 Pro Max         • 73D29D22-B2E3-4ED6-9106-32EE3D247008 • ios         •
+      com.apple.CoreSimulator.SimRuntime.iOS-13-2 (simulator)
+    • macOS                     • macOS                                • darwin-x64  • Mac OS X
+      10.15.3 19D76
 
-! Doctor found issues in 3 categories.
+• No issues found!
 ```
