@@ -50,6 +50,31 @@ flutter packages get
 flutter packages pub global activate webdev
 ```
 
+## env variables
+
+### windows
+
+```
+ENABLE_FLUTTER_DESKTOP  true
+PUB_CACHE               C:\Flutter\.pub-cache
+PATH                    C:\Flutter\bin  
+                        C:\Flutter\.pub-cache\bin   
+                        C:\Flutter\bin\cache\dart-sdk\bin
+```
+
+### macOS / linux
+
+```
+export ENABLE_FLUTTER_DESKTOP=true
+export PUB_CACHE=/Users/zzh/Flutter/.pub-cache
+export PATH=$PATH:/Users/zzh/Flutter/bin
+export PATH=$PATH:/Users/zzh/Flutter/.pub-cache/bin
+
+export PATH=$PATH:/Users/zzh/Flutter/bin/cache/dart-sdk/bin
+or
+export PATH="$PATH":"$HOME/Flutter/bin/cache/dart-sdk/bin"
+```
+
 ## run commands
 
 ### desktop
