@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Executable name.
-BINARY_NAME=flutter_desktop_example
+BINARY_NAME=flutter_demo_example
 # Any extra source files to build.
 EXTRA_SOURCES=
 # Paths of any additional libraries to be bundled in the output directory.

@@ -1,16 +1,19 @@
-name: hellodesktop
+name: hello_desktop
 description: hello from desktop
 
 version: 0.1.0
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=2.3.0-dev.0.1 <3.0.0'
   flutter: '>=1.10.2-pre.54'
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.0
+  font_awesome_flutter: any
+  transparent_image: any
+  http: any
 
 dev_dependencies:
   flutter_test:
@@ -33,3 +36,6 @@ flutter:
           weight: 700
         - asset: assets/fonts/Roboto/Roboto-Black.ttf
           weight: 900
+  assets:
+    - assets/
+    - assets/images/

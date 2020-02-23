@@ -2,6 +2,12 @@
 
 some miscellaneous `flutter` code for practice.
 
+```
+FlutterDemoExample
+Flutter_Demo_Example
+Flutter Demo Example
+```
+
 ## learning resources
 
 ```
@@ -49,6 +55,7 @@ flutter packages pub global activate webdev
 ### desktop
 
 ```
+flutter pub get
 flutter run
 flutter test
 flutter build windows
@@ -57,6 +64,7 @@ flutter build windows
 ### mobile
 
 ```
+flutter pub get
 flutter run
 flutter test
 flutter build apk
@@ -66,6 +74,7 @@ flutter build ios
 ### web
 
 ```
+flutter pub get
 webdev serve
 webdev build
 ```

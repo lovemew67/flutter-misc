@@ -1,10 +1,10 @@
-name: helloweb
+name: hello_web
 description: hello from web
 
 version: 0.1.0
 
 environment:
-  sdk: ">=2.3.0-dev.0.1 <3.0.0"
+  sdk: '>=2.3.0-dev.0.1 <3.0.0'
 
 dependencies:
   flutter_web: any

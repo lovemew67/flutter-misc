@@ -1,5 +1,5 @@
 import 'package:flutter_web_ui/ui.dart' as ui;
-import 'package:helloweb/main.dart' as app;
+import 'package:hello_web/main.dart' as app;
 
 main() async {
   await ui.webOnlyInitializePlatform();
