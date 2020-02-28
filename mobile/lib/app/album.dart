@@ -3,14 +3,14 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class MyAblumApp extends StatefulWidget {
-  MyAblumApp({Key key}) : super(key: key);
+class MyAlbumApp extends StatefulWidget {
+  MyAlbumApp({Key key}) : super(key: key);
 
   @override
   _MyAlbumAppState createState() => _MyAlbumAppState();
 }
 
-class _MyAlbumAppState extends State<MyAblumApp> {
+class _MyAlbumAppState extends State<MyAlbumApp> {
 Future<Album> futureAlbum;
 
   @override

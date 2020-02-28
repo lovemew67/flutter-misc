@@ -38,12 +38,20 @@ git checkout -b v1.12.16-pre.35
 flutter doctor
 ```
 ```
+flutter config --enable-web
+flutter config --enable-linux-desktop
+flutter config --enable-macos-desktop
+flutter config --enable-windows-desktop
+```
+```
 flutter devices
 flutter run -d emulator-5554
 flutter run -d 73D29D22-B2E3-4ED6-9106-32EE3D247008
 flutter run -d macOS
 flutter run -d Windows
 flutter run -d Linux
+flutter run -d chrome
+flutter run -d web-server
 ```
 ```
 flutter packages get
@@ -96,7 +104,7 @@ flutter build apk
 flutter build ios
 ```
 
-### web
+### web_old
 
 ```
 flutter pub get
@@ -217,6 +225,45 @@ PS C:\Golang\gopath\src\github.com\lovemew67\flutter-misc> flutter doctor -v
 
 [√] Connected device (1 available)
     • Windows • Windows • windows-x64 • Microsoft Windows [Version 10.0.14393]
+
+! Doctor found issues in 2 categories.
+```
+```
+PS C:\Golang\gopath\src\github.com\lovemew67\flutter-misc\web_new> flutter doctor -v
+[√] Flutter (Channel master, v1.12.16-pre.35, on Microsoft Windows [Version 10.0.14393], locale zh-TW)
+    • Flutter version 1.12.16-pre.35 at C:\Flutter
+    • Framework revision b9a56b9f48 (3 months ago), 2019-11-29 20:40:44 -0500
+    • Engine revision 8672e79af8
+    • Dart version 2.7.0
+
+[X] Android toolchain - develop for Android devices
+    X Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, set ANDROID_HOME to that location.
+      You may also want to add it to your PATH environment variable.
+
+
+[√] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[√] Visual Studio - develop for Windows (Visual Studio Community 2017 15.9.17)
+    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2017\Community
+    • Visual Studio Community 2017 version 15.9.28307.905
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+
+[√] VS Code, 64-bit edition (version 1.42.1)
+    • VS Code at C:\Program Files\Microsoft VS Code
+    • Flutter extension version 3.8.1
+
+[√] Connected device (3 available)
+    • Windows    • Windows    • windows-x64    • Microsoft Windows [Version 10.0.14393]
+    • Chrome     • chrome     • web-javascript • Google Chrome 80.0.3987.122
+    • Web Server • web-server • web-javascript • Flutter Tools
 
 ! Doctor found issues in 2 categories.
 ```

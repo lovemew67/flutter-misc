@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter_web: any
   flutter_web_ui: any
+  transparent_image: any
+  http: any
 
 dev_dependencies:
   build_runner: ^1.4.0

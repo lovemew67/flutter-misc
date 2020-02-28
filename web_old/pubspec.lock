@@ -147,7 +147,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.14.12"
+    version: "1.14.11"
   convert:
     dependency: transitive
     description:
@@ -183,6 +183,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.10.11"
+  flutter:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_web:
     dependency: "direct main"
     description:
@@ -201,6 +206,13 @@ packages:
       url: "https://github.com/flutter/flutter_web"
     source: git
     version: "0.0.0"
+  font_awesome_flutter:
+    dependency: "direct main"
+    description:
+      name: font_awesome_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "8.7.0"
   front_end:
     dependency: transitive
     description:
@@ -230,7 +242,7 @@ packages:
     source: hosted
     version: "0.14.0+3"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       url: "https://pub.dartlang.org"
@@ -411,6 +423,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.3"
+  sky_engine:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.99"
   source_gen:
     dependency: transitive
     description:
@@ -474,6 +491,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.1+2"
+  transparent_image:
+    dependency: "direct main"
+    description:
+      name: transparent_image
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   typed_data:
     dependency: transitive
     description:
