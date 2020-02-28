@@ -53,10 +53,6 @@ flutter run -d Linux
 flutter run -d chrome
 flutter run -d web-server
 ```
-```
-flutter packages get
-flutter packages pub global activate webdev
-```
 
 ## env variables
 
