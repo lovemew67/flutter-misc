@@ -7,6 +7,12 @@ FlutterDemoExample
 Flutter_Demo_Example
 Flutter Demo Example
 ```
+```
+Select "Application" when building for end user
+Select "Plugin"      when exporting an Android or iOS API for developers
+Select "Package"     when creating a pure Dart component, like a new Widget
+Select "Module"      when creating a Flutter component to add an Android or iOS app
+```
 
 ## learning resources
 
